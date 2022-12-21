@@ -35,8 +35,7 @@ DROP TABLE IF EXISTS dept_emp,
                      employees, 
                      departments;
 
-/*!50503 set default_storage_engine = InnoDB */;
-/*!50503 select CONCAT('storage engine: ', @@default_storage_engine) as INFO */;
+
 
 CREATE TABLE employees (
     emp_no      INT             NOT NULL,
